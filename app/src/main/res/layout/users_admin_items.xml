@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    >
+    <TextView
+        android:id="@+id/heading_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student:"
+        android:textSize="@dimen/headingsize"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/gradeorlocationlogin_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade/CGPA: "
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/degreeornumlogin_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Degree:"
+        />
+    <TextView
+        android:id="@+id/skillsorpostlogin_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Skills:"
+        />
+    <Button
+        android:id="@+id/delete_user_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:textSize="18dp"
+        android:layout_marginLeft="210dp"
+        />
+</LinearLayout>

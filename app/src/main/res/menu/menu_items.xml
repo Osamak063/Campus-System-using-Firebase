@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/jobs"
+        android:title="Jobs"
+        />
+    <item
+        android:id="@+id/studentslist"
+        android:title="Students List"
+        />
+    <item
+       android:id="@+id/companylist"
+        android:title="Companies List"
+        />
+    <item
+        android:id="@+id/postjob"
+        android:title="Post a job"
+        ></item>
+
+    <item android:id="@+id/myposts"
+          android:title="My posts"
+        ></item>
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        ></item>
+
+</menu>

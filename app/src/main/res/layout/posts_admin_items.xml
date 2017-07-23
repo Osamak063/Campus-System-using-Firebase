@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp">
+    <TextView
+        android:id="@+id/jobtitle_postadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Title:"
+        android:textSize="@dimen/textsize"
+        />
+    <TextView
+        android:id="@+id/description_postadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Description : sdksadmaskcmsklcmsaklcmksmcksmcsmckscmksmcksmcksmckmsacmsacmksmckasmckmsckmsckmaskcmsakcmk"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company Name:"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/compname_postadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panacloud"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/complocation_postadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karachi"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact No:"
+                android:textSize="17dp"
+                />
+            <TextView
+                android:id="@+id/contactno_postadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03432507836"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/delete_post_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

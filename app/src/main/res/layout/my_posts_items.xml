@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp">
+    <TextView
+        android:id="@+id/jobtitle_mypost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Title:"
+        android:textSize="@dimen/textsize"
+        />
+    <TextView
+        android:id="@+id/description_mypost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Description : sdksadmaskcmsklcmsaklcmksmcksmcsmckscmksmcksmcksmckmsacmsacmksmckasmckmsckmsckmaskcmsakcmk"
+        />
+
+
+    <Button
+        android:id="@+id/see_students_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Students"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

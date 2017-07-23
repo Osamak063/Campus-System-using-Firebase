@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">25dp</dimen>
+    <dimen name="edittextWidth">330dp</dimen>
+    <dimen name="marginLeftEditbox">30dp</dimen>
+    <dimen name="marginLeftText">40dp</dimen>
+    <dimen name="marginTopEditText">8dp</dimen>
+    <dimen name="textSizeReg">15dp</dimen>
+    <dimen name="headingsize">30dp</dimen>
+
+</resources>
